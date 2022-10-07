@@ -39,3 +39,37 @@
 </body>
 
 </html>
+
+Parte 2
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var notas = [[], []]
+        var nome = ""
+        var bm = 0
+
+        for (var i = 0; i <= 2; i++) {
+            nome = notas[[i][0]] = prompt("Digite o nome do aluno: ")
+            for (var y = 0; y <= 2; y++) {
+                bm = notas[[0][y]] = Number(prompt("Digite a nota do aluno: "))
+            }
+            document.write(`Nome: ${nome} - Notas: ${bm}`)
+            document.write("<br>")
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
